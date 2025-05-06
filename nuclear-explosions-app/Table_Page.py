@@ -1,8 +1,3 @@
-"""
-Nuclear Explosions Data Explorer
-CS230 Final Project - Rebecca Magana, Frieda Nal, & Siri Dhayabaran
-"""
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
