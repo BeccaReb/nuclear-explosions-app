@@ -8,7 +8,7 @@ def show_map_page():
 
     @st.cache_data
     def load_data():
-        df = pd.read_csv("../../OneDrive - Bentley University/nuclear-explosions-app/nuclear_explosions.csv")
+        df = pd.read_csv("nuclear_explosions.csv")
         df = df.rename(columns={
             "Location.Cordinates.Latitude": "Latitude",
             "Location.Cordinates.Longitude": "Longitude",
