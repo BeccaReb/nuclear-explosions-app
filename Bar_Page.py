@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def show_bar_page():
     @st.cache_data
     def load_data():
-        return pd.read_csv('../../OneDrive - Bentley University/nuclear-explosions-app/nuclear_explosions.csv')
+        return pd.read_csv('nuclear_explosions.csv')
 
     df = load_data()
 
